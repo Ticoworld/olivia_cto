@@ -31,6 +31,10 @@ const Roadmap = () => {
               Over 2000 holders <span className="text-green-500 font-bold">DONE!</span>
             </li>
             <li className="p-4 bg-gray-900 rounded shadow">
+              Website – being made by another holder/believer{" "}
+              <span className="text-green-500 font-bold">DONE!</span>
+            </li>
+            <li className="p-4 bg-gray-900 rounded shadow">
               Community building and participating in this CTO <span className="text-green-500 font-bold">YES</span>
             </li>
           </ul>
