@@ -33,7 +33,7 @@ const Navbar = () => {
               href="#faq"
               className="hover:text-gray-300 transition-colors duration-300 ease-in-out"
             >
-              faq
+              FAQ
             </a>
           </li>
           <li>
@@ -42,6 +42,14 @@ const Navbar = () => {
               className="hover:text-gray-300 transition-colors duration-300 ease-in-out"
             >
               Community
+            </a>
+          </li>
+          <li>
+            <a
+              href="#roadmap"
+              className="hover:text-gray-300 transition-colors duration-300 ease-in-out"
+            >
+              Roadmap
             </a>
           </li>
         </ul>
@@ -58,12 +66,12 @@ const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       {isOpen && (
-        <ul className="md:hidden flex flex-col mt-4 space-y-4 px-6 pb-4 transition-all duration-300 ease-in-out">
+        <ul className="md:hidden flex flex-col mt-4 space-y-2 px-6 pb-4 transition-all duration-300 ease-in-out">
           <li>
             <a
               href="#home"
               onClick={() => setIsOpen(false)}
-              className="hover:text-gray-300 transition-colors duration-300 ease-in-out"
+              className="block w-full px-4 py-2 hover:bg-gray-700 hover:text-gray-300 transition-colors duration-300 ease-in-out"
             >
               Home
             </a>
@@ -72,7 +80,7 @@ const Navbar = () => {
             <a
               href="#about"
               onClick={() => setIsOpen(false)}
-              className="hover:text-gray-300 transition-colors duration-300 ease-in-out"
+              className="block w-full px-4 py-2 hover:bg-gray-700 hover:text-gray-300 transition-colors duration-300 ease-in-out"
             >
               About
             </a>
@@ -81,18 +89,27 @@ const Navbar = () => {
             <a
               href="#faq"
               onClick={() => setIsOpen(false)}
-              className="hover:text-gray-300 transition-colors duration-300 ease-in-out"
+              className="block w-full px-4 py-2 hover:bg-gray-700 hover:text-gray-300 transition-colors duration-300 ease-in-out"
             >
-              faq
+              FAQ
             </a>
           </li>
           <li>
             <a
               href="#community"
               onClick={() => setIsOpen(false)}
-              className="hover:text-gray-300 transition-colors duration-300 ease-in-out"
+              className="block w-full px-4 py-2 hover:bg-gray-700 hover:text-gray-300 transition-colors duration-300 ease-in-out"
             >
               Community
+            </a>
+          </li>
+          <li>
+            <a
+              href="#roadmap"
+              onClick={() => setIsOpen(false)}
+              className="block w-full px-4 py-2 hover:bg-gray-700 hover:text-gray-300 transition-colors duration-300 ease-in-out"
+            >
+              Roadmap
             </a>
           </li>
         </ul>
