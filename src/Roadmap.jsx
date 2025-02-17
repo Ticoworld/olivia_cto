@@ -49,10 +49,6 @@ const Roadmap = () => {
               <span className="text-yellow-500 font-bold">in process</span>
             </li>
             <li className="p-4 bg-gray-900 rounded shadow">
-              Website – being made by another holder/believer{" "}
-              <span className="text-yellow-500 font-bold">in process</span>
-            </li>
-            <li className="p-4 bg-gray-900 rounded shadow">
               Raiding <span className="text-yellow-500 font-bold">started</span>
             </li>
           </ul>
