@@ -11,11 +11,13 @@ const CopyableAddress = () => {
   };
 
   return (
-    <div className="flex items-center justify-center mt-2">
-      <span className="bg-gray-700 px-3 py-2 rounded-md font-mono">{address}</span>
+    <div className="mt-2 flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-4">
+      <span className="bg-gray-700 px-3 py-2 rounded-md font-mono break-all w-full md:w-auto text-center">
+        {address}
+      </span>
       <button
         onClick={copyAddress}
-        className="ml-4 bg-blue-600 hover:bg-blue-700 transition-all duration-300 ease-in-out text-white px-4 py-2 rounded"
+        className="bg-blue-600 hover:bg-blue-700 transition-all duration-300 ease-in-out text-white px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
       >
         {copied ? "Copied!" : "Copy"}
       </button>

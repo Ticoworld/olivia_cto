@@ -31,32 +31,30 @@ const Roadmap = () => {
               Over 2000 holders <span className="text-green-500 font-bold">DONE!</span>
             </li>
             <li className="p-4 bg-gray-900 rounded shadow">
-              Website – being made by another holder/believer{" "}
-              <span className="text-green-500 font-bold">DONE!</span>
-            </li>
-            <li className="p-4 bg-gray-900 rounded shadow">
               Community building and participating in this CTO <span className="text-green-500 font-bold">YES</span>
             </li>
           </ul>
         </div>
 
-        {/* In Process Milestones */}
+        {/* Additional Completed Milestones */}
         <div className="mb-10">
-          <h3 className="text-2xl font-semibold mb-4">In Process</h3>
+          <h3 className="text-2xl font-semibold mb-4">Additional Completed Milestones</h3>
           <ul className="space-y-4">
             <li className="p-4 bg-gray-900 rounded shadow">
-              Received donation to make dextools and dexscreener{" "}
-              <span className="text-yellow-500 font-bold">in process</span>
+              Received donation to make dextools and dexscreener <span className="text-green-500 font-bold">DONE!</span>
             </li>
             <li className="p-4 bg-gray-900 rounded shadow">
-              Raiding <span className="text-yellow-500 font-bold">started</span>
+              Website – being made by another holder/believer <span className="text-green-500 font-bold">DONE:</span> <a href="https://oliviacto.com" className="underline text-blue-400" target="_blank" rel="noopener noreferrer">oliviacto.com</a>
+            </li>
+            <li className="p-4 bg-gray-900 rounded shadow">
+              Raiding <span className="text-green-500 font-bold">started</span>
             </li>
           </ul>
         </div>
 
-        {/* Upcoming Milestones */}
+        {/* TBD Milestones */}
         <div className="mb-10">
-          <h3 className="text-2xl font-semibold mb-4">Upcoming Milestones</h3>
+          <h3 className="text-2xl font-semibold mb-4">TBD</h3>
           <ul className="space-y-4">
             <li className="p-4 bg-gray-900 rounded shadow">3000 holders</li>
             <li className="p-4 bg-gray-900 rounded shadow">4000 holders</li>
@@ -67,7 +65,7 @@ const Roadmap = () => {
             <li className="p-4 bg-gray-900 rounded shadow">
               Gain traction as the first AI GOV token ever made{" "}
               <span className="text-gray-400 text-sm">
-                (our CTO supports the first ever created token; our Olivia is the oldest CA)
+                (our CTO supports the first created token; our Olivia is the oldest CA)
               </span>
             </li>
           </ul>
@@ -85,13 +83,15 @@ const Roadmap = () => {
           </ul>
         </div>
 
-        {/* Motivational Section */}
+        {/* Motivation */}
         <div>
           <h3 className="text-2xl font-semibold mb-4">Motivation</h3>
           <p className="text-lg leading-relaxed p-4 bg-gray-900 rounded shadow">
-            Your contribution, dedication, and refusal to react to bot manipulators and short-term thinkers can help
-            $OLIVIA become great. In three green days, true holders and believers shine; in red days, real diamond
-            hands are forged. Decide today who you are, and then stick to your plan.
+            With your contribution, dedication, and refusal to react to bot manipulators and short-term thinkers, 
+            you can help $OLIVIA become great. In three green days, true holders and believers shine; in red days during 
+            Bitcoin dumping or FUD, real diamond hands are forged.
+            <br /><br />
+            Decide today who you are, and then stick to your plan.
             <br /><br />
             Let's do it, together!
           </p>
