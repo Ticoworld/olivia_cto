@@ -72,7 +72,7 @@ const Hero = () => {
             Join Telegram
           </a>
           <a
-            href="https://x.com/oliviaAI_cto"
+            href="https://x.com/oliviacommunity"
             className="bg-gray-800 px-6 py-3 rounded-full transition-all duration-300 ease-in-out hover:bg-gray-700 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-500"
             target="_blank"
             rel="noopener noreferrer"
