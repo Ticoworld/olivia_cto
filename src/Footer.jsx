@@ -21,7 +21,7 @@ const Footer = () => {
             Telegram
           </a>
           <a
-            href="https://x.com/oliviacommunity"
+            href="http://x.com/AigovCTO"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors duration-300 ease-in-out"
